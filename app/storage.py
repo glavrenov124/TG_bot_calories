@@ -26,7 +26,6 @@ def add_burned_calories(user_id: int, calories: float):
         users[user_id]["burned_calories"] = users[user_id].get("burned_calories", 0) + calories
 
 def delete_user(user_id: int):
-    """Удаляет данные пользователя из памяти."""
     if user_id in users:
         del users[user_id]
 
