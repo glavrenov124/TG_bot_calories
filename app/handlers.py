@@ -392,7 +392,7 @@ async def set_commands(bot: Bot):
 
 
 async def main():
-    API_TOKEN = "7633142668:AAHsEVGzit-X6zHOujVrpLA5N21oP9ubi60"  
+    API_TOKEN = "YOUR_API_TOKEN"  
     bot = Bot(token=API_TOKEN)
     dp = Dispatcher()
     dp.message.middleware.register(LoggingMiddleware())
